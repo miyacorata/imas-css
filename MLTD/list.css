@@ -1,0 +1,37 @@
+.idol{
+    color: black;
+    margin:10px 5px;
+    border:solid 1px black;
+    box-shadow: 0 0 0 2px darkgray;
+    border-radius:5px;
+    background:linear-gradient(80deg, #f9f9f9, #e5eff9);
+    height:86px;
+}
+
+.idol p{
+    margin: 5px 0;
+}
+
+.idolicon{
+    margin:5px 0 0 8px;
+    float:left;
+    width:70px;
+    height:auto;
+    border: solid 3px #00ff44;
+    border-radius: 6px;
+}
+.idolinfo{
+    margin-left:86px;
+    padding: 0 10px;
+}
+.idolinfo .name{
+    font-size:20px;
+    margin:3px 0;
+    border-bottom:dotted 2px gray;
+}
+.idol a, .idol a:hover{
+    color:blue;
+}
+.idol a:visited{
+    color:midnightblue;
+}

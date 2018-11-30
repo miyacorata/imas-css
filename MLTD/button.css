@@ -1,0 +1,25 @@
+.button{
+    box-sizing:border-box;
+    position:relative;
+    background:linear-gradient(80deg, #f9f9f9, #e1edf5);
+    padding:4px 15px;
+    margin:5px;
+    color:black !important;
+    text-decoration:none;
+    border-radius:50px;
+    border:solid 1px black;
+    box-shadow: 0 0 0 2px darkgray;
+    font-weight:bold;
+    overflow: auto;
+}
+.button:hover{
+    background: lightgray;
+}
+.button:active{
+    background: gray;
+}
+
+.il{
+    display: inline-block;
+    text-align: center;
+}
